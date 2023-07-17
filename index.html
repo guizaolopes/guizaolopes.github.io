@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/elements.css">
+</head>
+<body >
+    <input type="checkbox" role="button" aria-label="Close menu" id="close_menu" class="close_menu">
+    <label class="close_menu_label" for="close_menu" title="close_menu"></label>
+    <aside class="menu white_bg">
+        <div class="main_content menu_content">
+            <h1 onclick="getElementById('close_menu').checked = false;">
+                <a href="#home">SOBRE MIM</a>
+            </h1>
+
+            <nav>
+                <UL onclick="getElementById('close_menu').checked = false;">
+                    <li><a href="#intro">TRABALHOS</a></li>
+                    <li><a href="#grid_one">REDES SOCIAIS</a></li>
+                    <li><a href="#gallery">HOBBIES</a></li>
+                    <li><a href="assets/curriculo03.pdf">CURRÍCULO</a></li>
+                </UL>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu_spacing"></div>
+
+    <section id="home" class="main_bg section">
+
+        <div class="main_content intro_content">
+
+            <div class="intro_text_content">
+
+                <h2>PORTFOLIO</h2>
+
+                <p>Me chamo Guilherme e sou estudante de engenharia de software da PUC/PR no segundo periodo. Gosto bastante de programar e sobre lógica para programação. Meu conhecimento em lingugens são em JavaScript, CSS, HTML, Python e PHP.</p>
+            </div>
+            <div class="intro_img">
+
+                <img src="assets/undraw_static_assets_rpm6.svg" alt="logo de html css e js">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white_bg section">
+
+        <div class="main_content top3_content">
+
+            <h2>Trabalhos</h2>
+
+            <p>Minhas pricipais experiencias em programacao em equipe foram em trabahlho academicos para desenvolver sistemas de automacao e solucionar problemas de sistemas.</p>
+            <p>Esse projetos dos quais fiz parte, em sua maioria são puramente interfaces de sistemas. Atuamente estou desenvolvendo meu primeiro site, com modelo streaming.</p>
+            <p>No andamento de projetos geralmente me destaco na area de avialiar o produto do projeto e em solucinar problemas persistentes do mesmo.</p>
+        </div>
+    </section>
+
+    <section id="grid_one" class=" grid-one main_bg section">
+
+        <div class="main_content grid_one_content">
+
+            <h2 class="grid_main_heading">social midia</h2>
+
+            <p class="grid_description">(...)</p>
+
+            <div class="grid">
+
+                <div class="gallery_img">
+                    <a href="https://www.instagram.com/00guizao/"><img src="https://img.freepik.com/vetores-gratis/instagram-icone-novo_1057-2227.jpg?w=360" alt="random image instagram"> </a>
+                </div>
+                <div class="gallery_img">
+                    <a href="https://github.com/guizaolopes">                    <img src="https://t3.ftcdn.net/jpg/02/88/02/74/360_F_288027423_DQ7eRFhzgVWwghEMPqwwNA4WVWcRCGBF.jpg" alt="random image
+                        github"></a>
+                </div>
+                <div class="gallery_img">
+                    <a href="https://www.linkedin.com/in/guilherme-lopes-053538235/">                    <img src="https://t4.ftcdn.net/jpg/05/09/10/63/360_F_509106358_pJhodrnxt94ma060RFrckFibaARxnghn.jpg" alt="random image
+                        linkedin"></a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class=" grid-one white_bg section">
+
+        <div class="main_content grid_one_content">
+
+            <h2 class="grid_main_heading">gallery</h2>
+
+            <p class="grid_description">my hobbies</p>
+
+            <div class="grid">
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="random image
+                    from unsplash">
+                </div>
+
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=2" alt="random image
+                    from unsplash">
+                </div>
+
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=3" alt="random image
+                    from unsplash">
+                </div>
+                
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=4" alt="random image
+                    from unsplash">
+                </div>
+                
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=5" alt="random image
+                    from unsplash">
+                </div>
+                
+                <div class="gallery_img">
+                    <img src="http://source.unsplash.com/random/360x360?r=6" alt="random image
+                    from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class=" footer white_bg">
+        <p> 
+            <a href="assets/curriculo.pdf" target="_blank" rel="nofollow">feito com ❤ por guilherme</a> 
+        </p>
+    </footer>
+
+    <a href="#home" class="back_to_top">↑</a>
+</body>
+</html>
